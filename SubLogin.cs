@@ -13,12 +13,15 @@ namespace SWE_Project
 {
     public partial class SubLogin : Form
     {
+        string ordb = "";
+
         OracleConnection connection = null;
 
         public SubLogin(string ordb)
         {
             InitializeComponent();
 
+            this.ordb = ordb;
             connection = new OracleConnection(ordb);
         }
 
@@ -46,7 +49,7 @@ namespace SWE_Project
 
                 this.Hide();
 
-                new Browse(connection.ConnectionString).ShowDialog();
+                new Browse(ordb).ShowDialog();
 
                 this.Close();
             }

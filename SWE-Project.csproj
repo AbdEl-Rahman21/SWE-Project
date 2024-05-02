@@ -93,6 +93,9 @@
     <Compile Include="SubLogin.Designer.cs">
       <DependentUpon>SubLogin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Browse.resx">
+      <DependentUpon>Browse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
