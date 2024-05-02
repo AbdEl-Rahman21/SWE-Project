@@ -11,6 +11,7 @@ CREATE TABLE magazines (
     publisher_id NUMBER REFERENCES publishers(publisher_id),
     magazine_name VARCHAR(255) NOT NULL,
     publication_date DATE,
+    views NUMBER,
     m_category VARCHAR(255)
 );
 
@@ -30,8 +31,8 @@ CREATE TABLE subscriptions (
 );
 
 CREATE TABLE followers (
-    follower_id NUMBER PRIMARY KEY,
     subscriber_id NUMBER REFERENCES subscribers(subscriber_id),
     publisher_id NUMBER REFERENCES publishers(publisher_id),
-    follow_date DATE
+    follow_date DATE,
+    PRIMARY KEY(subscriber_id, publisher_id)
 );
