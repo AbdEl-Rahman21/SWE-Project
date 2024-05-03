@@ -36,3 +36,5 @@ CREATE TABLE followers (
     follow_date DATE,
     PRIMARY KEY(subscriber_id, publisher_id)
 );
+
+COMMIT;
