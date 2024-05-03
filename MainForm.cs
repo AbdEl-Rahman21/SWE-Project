@@ -34,7 +34,7 @@ namespace SWE_Project
         {
             this.Hide();
 
-            new PubLogin().ShowDialog();
+            new PubLogin(ordb).ShowDialog();
 
             this.Show();
         }
