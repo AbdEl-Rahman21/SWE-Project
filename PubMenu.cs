@@ -36,5 +36,14 @@ namespace SWE_Project
 
             this.Show();
         }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            new EditMag(ordb, pub_id).ShowDialog();
+
+            this.Show();
+        }
     }
 }

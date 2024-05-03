@@ -73,6 +73,12 @@
     <Compile Include="Browse.Designer.cs">
       <DependentUpon>Browse.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditMag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMag.Designer.cs">
+      <DependentUpon>EditMag.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="Browse.resx">
       <DependentUpon>Browse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMag.resx">
+      <DependentUpon>EditMag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
