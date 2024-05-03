@@ -1,0 +1,7 @@
+CREATE OR REPLACE PROCEDURE GetMagId (MagId OUT NUMBER)
+AS
+BEGIN
+    SELECT MAX(magazine_id)
+    INTO MagId
+    FROM magazines;
+END;
