@@ -97,6 +97,18 @@
       <DependentUpon>FollowerInfoReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="MagRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MagRevenue.Designer.cs">
+      <DependentUpon>MagRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MagRevReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MagRevReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +153,13 @@
     <EmbeddedResource Include="FollowerInfoReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>FollowerInfoReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MagRevenue.resx">
+      <DependentUpon>MagRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MagRevReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MagRevReport.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

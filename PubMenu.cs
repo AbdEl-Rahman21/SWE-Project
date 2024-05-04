@@ -54,5 +54,14 @@ namespace SWE_Project
 
             this.Show();
         }
+
+        private void btn_mag_rev_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            new MagRevenue(pub_id).ShowDialog();
+
+            this.Show();
+        }
     }
 }

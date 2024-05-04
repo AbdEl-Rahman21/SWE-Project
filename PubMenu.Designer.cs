@@ -32,7 +32,7 @@
             this.btn_pub_mag = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_follower_info = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_mag_rev = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -74,21 +74,22 @@
             this.btn_follower_info.UseVisualStyleBackColor = true;
             this.btn_follower_info.Click += new System.EventHandler(this.btn_follower_info_Click);
             // 
-            // button4
+            // btn_mag_rev
             // 
-            this.button4.Location = new System.Drawing.Point(435, 117);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_mag_rev.Location = new System.Drawing.Point(379, 117);
+            this.btn_mag_rev.Name = "btn_mag_rev";
+            this.btn_mag_rev.Size = new System.Drawing.Size(193, 23);
+            this.btn_mag_rev.TabIndex = 4;
+            this.btn_mag_rev.Text = "View Magazine Revenue";
+            this.btn_mag_rev.UseVisualStyleBackColor = true;
+            this.btn_mag_rev.Click += new System.EventHandler(this.btn_mag_rev_Click);
             // 
             // PubMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn_mag_rev);
             this.Controls.Add(this.btn_follower_info);
             this.Controls.Add(this.btn_edit);
             this.Controls.Add(this.btn_pub_mag);
@@ -106,6 +107,6 @@
         private System.Windows.Forms.Button btn_pub_mag;
         private System.Windows.Forms.Button btn_edit;
         private System.Windows.Forms.Button btn_follower_info;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_mag_rev;
     }
 }
