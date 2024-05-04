@@ -14,7 +14,7 @@ namespace SWE_Project
     public partial class PubMenu : Form
     {
         string ordb = "";
-        string pub_id = "";
+        string pubId = "";
 
         OracleConnection connection = null;
 
@@ -23,7 +23,7 @@ namespace SWE_Project
             InitializeComponent();
 
             this.ordb = ordb;
-            this.pub_id = id;
+            this.pubId = id;
 
             connection = new OracleConnection(ordb);
         }
@@ -32,7 +32,7 @@ namespace SWE_Project
         {
             this.Hide();
 
-            new PublishMag(ordb, pub_id).ShowDialog();
+            new PublishMag(ordb, pubId).ShowDialog();
 
             this.Show();
         }
@@ -41,7 +41,7 @@ namespace SWE_Project
         {
             this.Hide();
 
-            new EditMag(ordb, pub_id).ShowDialog();
+            new EditMag(ordb, pubId).ShowDialog();
 
             this.Show();
         }
@@ -50,7 +50,7 @@ namespace SWE_Project
         {
             this.Hide();
 
-            new FollowerInfo(pub_id).ShowDialog();
+            new FollowerInfo(pubId).ShowDialog();
 
             this.Show();
         }
@@ -59,7 +59,7 @@ namespace SWE_Project
         {
             this.Hide();
 
-            new MagRevenue(pub_id).ShowDialog();
+            new MagRevenue(pubId).ShowDialog();
 
             this.Show();
         }

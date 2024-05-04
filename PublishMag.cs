@@ -13,7 +13,7 @@ namespace SWE_Project
 {
     public partial class PublishMag : Form
     {
-        string pub_id = "";
+        string pubId = "";
         int newMagId = 0;
 
         OracleConnection connection = null;
@@ -22,7 +22,7 @@ namespace SWE_Project
         {
             InitializeComponent();
 
-            this.pub_id = id;
+            this.pubId = id;
             connection = new OracleConnection(ordb);
         }
 
@@ -61,7 +61,7 @@ namespace SWE_Project
             cmd.CommandType = CommandType.Text;
 
             cmd.Parameters.Add("id", newMagId.ToString());
-            cmd.Parameters.Add("pubId", pub_id);
+            cmd.Parameters.Add("pubId", pubId);
             cmd.Parameters.Add("name", txt_name.Text);
             cmd.Parameters.Add("pubDate", DateTime.Now);
             cmd.Parameters.Add("category", txt_category.Text);

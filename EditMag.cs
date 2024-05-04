@@ -13,7 +13,7 @@ namespace SWE_Project
 {
     public partial class EditMag : Form
     {
-        string pub_id = "";
+        string pubId = "";
         string ordb = "";
 
         OracleDataAdapter adapter = null;
@@ -24,7 +24,7 @@ namespace SWE_Project
         {
             InitializeComponent();
 
-            this.pub_id = id;
+            this.pubId = id;
             this.ordb = ordb;
         }
 
@@ -36,7 +36,7 @@ namespace SWE_Project
 
             adapter = new OracleDataAdapter(cmdText, ordb);
 
-            adapter.SelectCommand.Parameters.Add("pId", pub_id);
+            adapter.SelectCommand.Parameters.Add("pId", pubId);
             adapter.SelectCommand.Parameters.Add("category", txt_category.Text);
 
             dataSet = new DataSet();

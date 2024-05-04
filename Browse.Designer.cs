@@ -84,7 +84,7 @@
             // 
             this.btn_view.Location = new System.Drawing.Point(285, 171);
             this.btn_view.Name = "btn_view";
-            this.btn_view.Size = new System.Drawing.Size(144, 23);
+            this.btn_view.Size = new System.Drawing.Size(144, 32);
             this.btn_view.TabIndex = 5;
             this.btn_view.Text = "View Magazine";
             this.btn_view.UseVisualStyleBackColor = true;

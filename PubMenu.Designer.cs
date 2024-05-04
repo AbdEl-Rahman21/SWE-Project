@@ -46,9 +46,9 @@
             // 
             // btn_pub_mag
             // 
-            this.btn_pub_mag.Location = new System.Drawing.Point(214, 71);
+            this.btn_pub_mag.Location = new System.Drawing.Point(190, 71);
             this.btn_pub_mag.Name = "btn_pub_mag";
-            this.btn_pub_mag.Size = new System.Drawing.Size(140, 23);
+            this.btn_pub_mag.Size = new System.Drawing.Size(140, 40);
             this.btn_pub_mag.TabIndex = 1;
             this.btn_pub_mag.Text = "Publish Magazine";
             this.btn_pub_mag.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btn_edit
             // 
-            this.btn_edit.Location = new System.Drawing.Point(408, 71);
+            this.btn_edit.Location = new System.Drawing.Point(442, 71);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(124, 23);
+            this.btn_edit.Size = new System.Drawing.Size(124, 40);
             this.btn_edit.TabIndex = 2;
             this.btn_edit.Text = "Edit Magazines";
             this.btn_edit.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // 
             // btn_follower_info
             // 
-            this.btn_follower_info.Location = new System.Drawing.Point(188, 117);
+            this.btn_follower_info.Location = new System.Drawing.Point(169, 117);
             this.btn_follower_info.Name = "btn_follower_info";
-            this.btn_follower_info.Size = new System.Drawing.Size(185, 23);
+            this.btn_follower_info.Size = new System.Drawing.Size(185, 41);
             this.btn_follower_info.TabIndex = 3;
             this.btn_follower_info.Text = "View Follower Information";
             this.btn_follower_info.UseVisualStyleBackColor = true;
@@ -76,9 +76,9 @@
             // 
             // btn_mag_rev
             // 
-            this.btn_mag_rev.Location = new System.Drawing.Point(379, 117);
+            this.btn_mag_rev.Location = new System.Drawing.Point(408, 117);
             this.btn_mag_rev.Name = "btn_mag_rev";
-            this.btn_mag_rev.Size = new System.Drawing.Size(193, 23);
+            this.btn_mag_rev.Size = new System.Drawing.Size(193, 41);
             this.btn_mag_rev.TabIndex = 4;
             this.btn_mag_rev.Text = "View Magazine Revenue";
             this.btn_mag_rev.UseVisualStyleBackColor = true;
