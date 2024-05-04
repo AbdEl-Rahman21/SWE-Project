@@ -45,5 +45,14 @@ namespace SWE_Project
 
             this.Show();
         }
+
+        private void btn_follower_info_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            new FollowerInfo(pub_id).ShowDialog();
+
+            this.Show();
+        }
     }
 }

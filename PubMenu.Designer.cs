@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_pub_mag = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_follower_info = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -64,14 +64,15 @@
             this.btn_edit.UseVisualStyleBackColor = true;
             this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
-            // button3
+            // btn_follower_info
             // 
-            this.button3.Location = new System.Drawing.Point(247, 117);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_follower_info.Location = new System.Drawing.Point(188, 117);
+            this.btn_follower_info.Name = "btn_follower_info";
+            this.btn_follower_info.Size = new System.Drawing.Size(185, 23);
+            this.btn_follower_info.TabIndex = 3;
+            this.btn_follower_info.Text = "View Follower Information";
+            this.btn_follower_info.UseVisualStyleBackColor = true;
+            this.btn_follower_info.Click += new System.EventHandler(this.btn_follower_info_Click);
             // 
             // button4
             // 
@@ -88,7 +89,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_follower_info);
             this.Controls.Add(this.btn_edit);
             this.Controls.Add(this.btn_pub_mag);
             this.Controls.Add(this.label1);
@@ -104,7 +105,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_pub_mag;
         private System.Windows.Forms.Button btn_edit;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_follower_info;
         private System.Windows.Forms.Button button4;
     }
 }
