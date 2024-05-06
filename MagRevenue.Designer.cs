@@ -37,7 +37,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(209, 8);
+            this.label1.Location = new System.Drawing.Point(384, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 16);
             this.label1.TabIndex = 0;
@@ -46,14 +46,14 @@
             // cmb_category
             // 
             this.cmb_category.FormattingEnabled = true;
-            this.cmb_category.Location = new System.Drawing.Point(318, 5);
+            this.cmb_category.Location = new System.Drawing.Point(493, 4);
             this.cmb_category.Name = "cmb_category";
             this.cmb_category.Size = new System.Drawing.Size(121, 24);
             this.cmb_category.TabIndex = 1;
             // 
             // btn_gen_report
             // 
-            this.btn_gen_report.Location = new System.Drawing.Point(651, 6);
+            this.btn_gen_report.Location = new System.Drawing.Point(814, 4);
             this.btn_gen_report.Name = "btn_gen_report";
             this.btn_gen_report.Size = new System.Drawing.Size(138, 23);
             this.btn_gen_report.TabIndex = 2;
@@ -68,14 +68,14 @@
             this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer.Location = new System.Drawing.Point(12, 35);
             this.crystalReportViewer.Name = "crystalReportViewer";
-            this.crystalReportViewer.Size = new System.Drawing.Size(992, 541);
+            this.crystalReportViewer.Size = new System.Drawing.Size(1334, 541);
             this.crystalReportViewer.TabIndex = 3;
             // 
             // MagRevenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 588);
+            this.ClientSize = new System.Drawing.Size(1358, 588);
             this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.btn_gen_report);
             this.Controls.Add(this.cmb_category);
